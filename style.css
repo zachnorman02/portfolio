@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background: antiquewhite;
+}
+
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.resume-cols {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resume-cols h3 {
+    margin-top: 0;
+}
+
+.dates {
+    text-align: right;
+}
