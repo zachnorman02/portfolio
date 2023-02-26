@@ -36,6 +36,24 @@ a:visited {
     margin-top: 0;
 }
 
-.dates {
+.align-right {
     text-align: right;
+}
+
+table h3, table p {
+    margin: 0;
+}
+
+#education, #skills, #experience {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#experience ul {
+    margin: 0;
+}
+
+#experience .align-right {
+    width: 30%;
 }
