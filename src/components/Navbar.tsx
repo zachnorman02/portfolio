@@ -8,17 +8,32 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <button className="icon navbar-btn" onClick={() => setNavbarOpen(!navbarOpen)}>
-          {navbarOpen ? <FaTimes/> : <FaBars/>}
+      <button
+        className="icon navbar-btn"
+        onClick={() => setNavbarOpen(!navbarOpen)}
+      >
+        {navbarOpen ? <FaTimes /> : <FaBars />}
       </button>
       <div className={`links ${navbarOpen ? "open" : ""}`} id="navbar-links">
         <Link to="/portfolio">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/resume">Resume</Link>
-        <Link to="/classes">Classes</Link>
-        <Link to="/blog">Blog</Link>
-        <a href="https://www.github.com/zachnorman02" target="_blank" rel="noopener noreferrer">Github</a>
-        <a href="https://www.linkedin.com/in/zachnorman02" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <Link to="/portfolio/projects">Projects</Link>
+        <Link to="/portfolio/resume">Resume</Link>
+        <Link to="/portfolio/classes">Classes</Link>
+        <Link to="/portfolio/blog">Blog</Link>
+        <a
+          href="https://www.github.com/zachnorman02"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </a>
+        <a
+          href="https://www.linkedin.com/in/zachnorman02"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
       </div>
     </div>
   );
