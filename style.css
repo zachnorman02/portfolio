@@ -53,7 +53,7 @@ table h3, table p {
     margin-right: auto;
 }
 
-#experience ul {
+#experience ul, #ecs ul {
     margin: 0;
 }
 
