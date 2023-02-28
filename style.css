@@ -47,7 +47,7 @@ table h3, table p {
     margin: 0;
 }
 
-#education, #skills, #experience {
+#education, #skills, #experience, #ecs {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
