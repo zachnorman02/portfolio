@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-        <title>Zach Norman</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <div class="navbar">
-            <a href="javascript:void(0);" class="icon navbar-btn" onclick="openNavbar()">
-                <i class="fa fa-bars" id="navbar-toggle-icon"></i>
-            </a>
-            <div class="links" id="navbar-links">
-                <a href="index.html">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="resume.html">Resume</a>
-                <a href="classes.html">Classes</a>
-                <a href="blog.html">Blog</a>
-                <a href="https://www.github.com/zachnorman02" target="_blank" rel="noopener noreferrer">Github</a>
-                <a href="https://www.linkedin.com/in/zachnorman02" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-        </div>
-        <div class="content">
-            <h1>Resume</h1>
+import '../styles/resume.css';
+
+function Resume() {
+  return (
+    <div className="content">
+        <h1>Resume</h1>
             <a href="/">PDF Version (Coming Soon)</a>
             <a href="https://www.linkedin.com/in/zachnorman02">LinkedIn</a>
             <p>
@@ -32,7 +13,7 @@
             <table id="education">
                 <tr>
                     <td><strong>Northeastern University - Khoury College of Computer Sciences</strong></td>
-                    <td class="align-right">September 2020 - April 2023</td>
+                    <td className="align-right">September 2020 - April 2023</td>
                 </tr>
                 <tr>
                     <td>
@@ -40,16 +21,16 @@
                             Bachelor of Science in Computer Science and Mathematics
                         </p>
                     </td>
-                    <td class="align-right">
+                    <td className="align-right">
                         <p>GPA: 3.4/4.0</p>
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
-                    <td><strong>McDonogh School</h3></td>
-                    <td class="align-right">August 2016 - June 2020</td>
+                    <td><strong>McDonogh School</strong></td>
+                    <td className="align-right">August 2016 - June 2020</td>
                 </tr>
                 <tr>
                     <td>
@@ -57,7 +38,7 @@
                             High School Diploma
                         </p>
                     </td>
-                    <td class="align-right">
+                    <td className="align-right">
                         <p>GPA: 4.3/4.0</p>
                     </td>
                 </tr>
@@ -87,17 +68,17 @@
                 </tr>
                 <tr>
                     <td><p><em>Application Engineer, Full-Time</em></p></td>
-                    <td class="align-right"><p>May 2023 - Present</p></td>
+                    <td className="align-right"><p>May 2023 - Present</p></td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><strong>Generate Product Development</strong>, Boston, MA</p></td>
                 </tr>
                 <tr>
                     <td><p><em>Website Developer, Extracurricular Club Involvement</em> • JavaScript, React</p></td>
-                    <td class="align-right"><p>January 2023 - April 2023</p></td>
+                    <td className="align-right"><p>January 2023 - April 2023</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -115,14 +96,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><strong>Northeastern Electric Racing</strong>, Boston, MA</p></td>
                 </tr>
                 <tr>
                     <td><p><em>Software Solutions Developer, Extracurricular Club Involvement</em> • TypeScript, React</p></td>
-                    <td class="align-right"><p>September 2022 - April 2023</p></td>
+                    <td className="align-right"><p>September 2022 - April 2023</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -134,14 +115,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><strong>Orita</strong>, Remote</p></td>
                 </tr>
                 <tr>
                     <td><p><em>Developer, Contract</em> • Python, Django, HTML, CSS, Svelte, JavaScript</p></td>
-                    <td class="align-right"><p>February 2022 - November 2022</p></td>
+                    <td className="align-right"><p>February 2022 - November 2022</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -156,14 +137,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><strong>Baltimore Orioles</strong>, Baltimore, MD</p></td>
                 </tr>
                 <tr>
                     <td><p><em>Developer, Co-op</em> • HTML, CSS, JavaScript, React, Django, AWS, Python, pandas</p></td>
-                    <td class="align-right"><p>January 2022 - September 2022</p></td>
+                    <td className="align-right"><p>January 2022 - September 2022</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -181,14 +162,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><strong>Secret Analytics</strong>, Remote</p></td>
                 </tr>
                 <tr>
                     <td><p><em>Developer, Freelance</em> • Python, Plotly Dash</p></td>
-                    <td class="align-right"><p>December 2021 - June 2022</p></td>
+                    <td className="align-right"><p>December 2021 - June 2022</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -203,14 +184,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><strong>Northeastern University</strong>, Boston, MA</p></td>
                 </tr>
                 <tr>
                     <td><p><em>Object-Oriented Design (CS3500) TA, Part-Time</em> • Java, Junit, IntelliJ, Teaching</p></td>
-                    <td class="align-right"><p>September 2021 - December 2021</p></td>
+                    <td className="align-right"><p>September 2021 - December 2021</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -222,11 +203,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><em>Information Technology Services Customer Experience Technician, Part-Time</em> • Customer Support, Ticketing</p></td>
-                    <td class="align-right"><p>August 2021 - December 2021</p></td>
+                    <td className="align-right"><p>August 2021 - December 2021</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -236,14 +217,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><br></td>
+                    <td><br/></td>
                 </tr>
                 <tr>
                     <td><p><strong>McDonogh School</strong>, Owings Mills, MA</p></td>
                 </tr>
                 <tr>
                     <td><p><em>Technology Department Intern, Part-Time</em> • Computer Setup/Support, Networking, Technology Hardware and Infrastructure</p></td>
-                    <td class="align-right"><p>June - August 2019; June 2020 - May 2021</p></td>
+                    <td className="align-right"><p>June - August 2019; June 2020 - May 2021</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -271,7 +252,7 @@
                 </tr>
                 <tr>
                     <td><p><em>VexU Software</em></p></td>
-                    <td class="align-right"><p>August 2021 - April 2023</p></td>
+                    <td className="align-right"><p>August 2021 - April 2023</p></td>
                 </tr>
                 <tr>
                     <td>
@@ -283,6 +264,8 @@
                     </td>
                 </tr>
             </table>
-            <script src="main.js"></script>
-    </body>
-</html>
+    </div>
+  );
+}
+
+export default Resume;
