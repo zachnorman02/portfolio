@@ -1,0 +1,36 @@
+.navbar {
+    padding: 10px;
+    background: antiquewhite;
+}
+
+.navbar .links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-btn {
+    display: none;
+}
+
+@media only screen and (max-device-width: 650px) {
+    .navbar .links {
+        display: none;
+        flex-direction: column;
+        height: calc(100vh - 65px);
+        align-items: center;
+    }
+
+    .navbar .links.open {
+        display: flex;
+    }
+
+    .navbar-btn {
+        display: block;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

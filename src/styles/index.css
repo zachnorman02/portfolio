@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+.content {
+  padding: 10px 50px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+
+.align-right {
+  text-align: right;
+}
+
+table h3,
+table p {
+  margin: 0;
+}
