@@ -12,7 +12,7 @@ function Navbar() {
           {navbarOpen ? <FaTimes/> : <FaBars/>}
       </button>
       <div className={`links ${navbarOpen ? "open" : ""}`} id="navbar-links">
-        <Link to="/">Home</Link>
+        <Link to="/portfolio">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/resume">Resume</Link>
         <Link to="/classes">Classes</Link>
