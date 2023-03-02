@@ -7,6 +7,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Classes from "./Classes";
 import Blog from './Blog';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/portfolio/resume" element={<Resume />} />
             <Route path="/portfolio/classes" element={<Classes />} />
             <Route path="/portfolio/blog" element={<Blog />}></Route>
+            <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </div>
       </Router>
