@@ -15,11 +15,11 @@ function Navbar() {
         {navbarOpen ? <FaTimes /> : <FaBars />}
       </button>
       <div className={`links ${navbarOpen ? "open" : ""}`} id="navbar-links">
-        <Link to="/portfolio">Home</Link>
-        <Link to="/portfolio/projects">Projects</Link>
-        <Link to="/portfolio/resume">Resume</Link>
-        <Link to="/portfolio/classes">Classes</Link>
-        <Link to="/portfolio/blog">Blog</Link>
+        <Link to="/">Home</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/resume">Resume</Link>
+        <Link to="/classes">Classes</Link>
+        <Link to="/blog">Blog</Link>
         <a
           href="https://www.github.com/zachnorman02"
           target="_blank"
