@@ -15,11 +15,21 @@ function Navbar() {
         {navbarOpen ? <FaTimes /> : <FaBars />}
       </button>
       <div className={`links ${navbarOpen ? "open" : ""}`} id="navbar-links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/resume">Resume</Link>
-        <Link to="/classes">Classes</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/" onClick={() => setNavbarOpen(!navbarOpen)}>
+          Home
+        </Link>
+        <Link to="/projects" onClick={() => setNavbarOpen(!navbarOpen)}>
+          Projects
+        </Link>
+        <Link to="/resume" onClick={() => setNavbarOpen(!navbarOpen)}>
+          Resume
+        </Link>
+        <Link to="/classes" onClick={() => setNavbarOpen(!navbarOpen)}>
+          Classes
+        </Link>
+        <Link to="/blog" onClick={() => setNavbarOpen(!navbarOpen)}>
+          Blog
+        </Link>
         <a
           href="https://www.github.com/zachnorman02"
           target="_blank"

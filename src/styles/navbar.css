@@ -32,5 +32,7 @@
         font-size: 17px;
         display: flex;
         justify-content: flex-end;
+        background: none;
+        border: none;
     }
 }
