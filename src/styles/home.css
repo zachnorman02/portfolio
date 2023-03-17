@@ -1,0 +1,18 @@
+#intro {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro h1 {
+    font-size: 5vw;
+}
+
+@media only screen and (max-device-width: 650px) {
+    #intro h1 {
+        font-size: 8vh;
+    }
+}

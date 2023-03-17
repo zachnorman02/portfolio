@@ -1,9 +1,12 @@
 import React from "react";
+import "../styles/home.css";
 
 function Home() {
   return (
     <div className="content">
-      <h1>Zach Norman</h1>
+      <div id="intro">
+        <h1>Zach Norman</h1>
+      </div>
       <p>
         Hi, I'm Zach. I am graduating in May 2023 with my Bachelor's in Computer
         Science and Math from Northeastern University, and will be starting
