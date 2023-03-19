@@ -41,3 +41,9 @@
 .timelines {
     display: flex;
 }
+
+@media only screen and (max-width: 650px) {
+    .timelines {
+        flex-direction: column;
+    }
+}
