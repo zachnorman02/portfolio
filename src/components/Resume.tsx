@@ -368,7 +368,7 @@ function Resume() {
         <tr>
           <td>
             <p>
-              <strong>McDonogh School</strong>, Owings Mills, MA
+              <strong>McDonogh School</strong>, Owings Mills, MD
             </p>
           </td>
         </tr>

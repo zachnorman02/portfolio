@@ -5,7 +5,9 @@ function Home() {
   return (
     <div className="content">
       <div id="intro">
-        <h1>Zach Norman</h1>
+        <div>
+          <h1 className="scrolling-text">Zach Norman</h1>
+        </div>
       </div>
       <p>
         Hi, I'm Zach. I am graduating in May 2023 with my Bachelor's in Computer
