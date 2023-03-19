@@ -8,6 +8,7 @@ import Resume from './Resume';
 import Classes from "./Classes";
 import Blog from './Blog';
 import NotFound from './NotFound';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/blog" element={<Blog />}></Route>
             <Route path="/*" element={<NotFound />}></Route>
           </Routes>
+          <Footer/>
         </div>
       </Router>
     </div>

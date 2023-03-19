@@ -1,3 +1,19 @@
+.css-o1utbh, .css-o1utbh p {
+    font-family: revert!important;
+}
+
+.css-o1utbh {
+    height: 100%;
+}
+
+/* .css-1b3lipl {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100%;
+    justify-content: space-between;
+} */
+
 .resume-cols {
     display: flex;
     align-items: center;
@@ -8,20 +24,16 @@
     margin-top: 0;
 }
 
-#education,
-#skills,
-#experience,
-#ecs {
+#skills {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#experience ul,
-#ecs ul {
-    margin: 0;
+#ecs .css-o1utbh{
+    height: auto;
 }
 
-#experience .align-right {
-    width: 30%;
+.timelines {
+    display: flex;
 }

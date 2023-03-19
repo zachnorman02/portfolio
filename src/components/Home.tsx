@@ -1,9 +1,14 @@
 import React from "react";
+import "../styles/home.css";
 
 function Home() {
   return (
     <div className="content">
-      <h1>Zach Norman</h1>
+      <div id="intro">
+        <div>
+          <h1 className="scrolling-text">Zach Norman</h1>
+        </div>
+      </div>
       <p>
         Hi, I'm Zach. I am graduating in May 2023 with my Bachelor's in Computer
         Science and Math from Northeastern University, and will be starting
@@ -23,7 +28,7 @@ function Home() {
         If you would like to contact me, email me at zachnorman02 [at] gmail
         [dot] com.
       </p>
-      <em>Work in Progress - Last Updated Feb 2023</em>
+      <em>Work in Progress - Last Updated Mar 2023</em>
     </div>
   );
 }
