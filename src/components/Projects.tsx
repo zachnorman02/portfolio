@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { isMobile } from "react-device-detect";
 import "../styles/projects.css";
 
 function Projects() {
+  const [swipe, setSwipe] = useState(false);
+
   return (
     <div className="content">
       <h1>Projects</h1>
@@ -15,7 +18,18 @@ function Projects() {
         mentioned here are subpar or unfinished), go to my{" "}
         <a href="https://www.github.com/zachnorman02">Github</a>.
       </p>
-      <Carousel className="projects-carousel" showThumbs={false} showStatus={false}>
+      <button onClick={() => setSwipe(!swipe)} id="projects-swipe-button">
+        {swipe ? "Disable" : "Enable"} Swipe on Desktop
+      </button>
+      <Carousel
+        className="projects-carousel"
+        showThumbs={false}
+        showStatus={false}
+        emulateTouch={swipe}
+        infiniteLoop={true}
+        dynamicHeight={isMobile}
+        useKeyboardArrows={true}
+      >
         <div className="project">
           <h2>WebGL Image Processor</h2>
           <h3>

@@ -6,7 +6,7 @@
 
 .project p {
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -14,4 +14,31 @@
 
 .carousel-root {
     background: rgba(0, 0, 0, 0.5);
+}
+
+#projects-swipe-button {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+
+#projects-swipe-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+@media only screen and (max-device-width: 650px) {
+    #projects-swipe-button {
+        display: none;
+    }
+
+    .carousel-slider {
+        padding-bottom: 50px;
+    }
 }
