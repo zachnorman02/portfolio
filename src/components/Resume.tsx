@@ -16,7 +16,9 @@ function Resume() {
               Northeastern University - Khoury College of Computer Sciences
             </strong>
           </td>
-          <td className="align-right">September 2020 - April 2023</td>
+          <td className="align-right">
+            <p>September 2020 - April 2023</p>
+          </td>
         </tr>
         <tr>
           <td>
@@ -35,7 +37,9 @@ function Resume() {
           <td>
             <strong>McDonogh School</strong>
           </td>
-          <td className="align-right">August 2016 - June 2020</td>
+          <td className="align-right">
+            <p>August 2016 - June 2020</p>
+          </td>
         </tr>
         <tr>
           <td>

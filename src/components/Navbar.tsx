@@ -27,9 +27,9 @@ function Navbar() {
         <Link to="/classes" onClick={() => setNavbarOpen(!navbarOpen)}>
           Classes
         </Link>
-        <Link to="/blog" onClick={() => setNavbarOpen(!navbarOpen)}>
+        {/* <Link to="/blog" onClick={() => setNavbarOpen(!navbarOpen)}>
           Blog
-        </Link>
+        </Link> */}
         <a
           href="https://www.github.com/zachnorman02"
           target="_blank"

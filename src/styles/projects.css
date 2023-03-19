@@ -16,6 +16,11 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+.carousel .slider {
+    align-items: center;
+    margin: revert;
+}
+
 #projects-swipe-button {
     font-family: 'Courier New', Courier, monospace;
     margin: 10px 0;
