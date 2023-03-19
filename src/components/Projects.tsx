@@ -16,7 +16,14 @@ function Projects() {
         share, otherwise code is available upon request for the projects listed
         as class assignments. For more projects (though many of the ones not
         mentioned here are subpar or unfinished), go to my{" "}
-        <a href="https://www.github.com/zachnorman02">Github</a>.
+        <a
+          href="https://www.github.com/zachnorman02"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github 
+        </a>
+        .
       </p>
       <button onClick={() => setSwipe(!swipe)} id="projects-swipe-button">
         {swipe ? "Disable" : "Enable"} Swipe on Desktop
@@ -34,11 +41,19 @@ function Projects() {
           <h2>WebGL Image Processor</h2>
           <h3>
             December 2022 • CS 4300 (Computer Graphics) Final Project •{" "}
-            <a href="https://github.com/zachnorman02/webgl-image-processor">
+            <a
+              href="https://github.com/zachnorman02/webgl-image-processor"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Code
             </a>{" "}
             •{" "}
-            <a href="https://zachnorman02.github.io/webgl-image-processor/">
+            <a
+              href="https://zachnorman02.github.io/webgl-image-processor/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Demo
             </a>
           </h3>
@@ -55,10 +70,21 @@ function Projects() {
           <h3>
             November - December 2022 • CS 4530 (Software Engineering) Final
             Project •{" "}
-            <a href="https://github.com/neu-cs4530/fall-22-team-project-group-413">
+            <a
+              href="https://github.com/neu-cs4530/fall-22-team-project-group-413"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Code
             </a>{" "}
-            • <a href="https://polling-area-413.netlify.app/">Demo</a>
+            •{" "}
+            <a
+              href="https://polling-area-413.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Demo
+            </a>
           </h3>
           <em>TypeScript • React • Netlify • Heroku • Jest • Phaser</em>
           <p>
@@ -80,7 +106,11 @@ function Projects() {
           <h3>
             October - December 2021 | DS 4400 (Machine Learning 1) Final Project
             •{" "}
-            <a href="https://github.com/zachnorman02/DS-4400-Final-Project">
+            <a
+              href="https://github.com/zachnorman02/DS-4400-Final-Project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Code
             </a>
           </h3>
@@ -110,7 +140,11 @@ function Projects() {
           <h3>
             May - June 2021 | DS 3000 (Foundations of Data Science) Final
             Project •{" "}
-            <a href="https://github.com/leoRysing/DS-3000-final-project">
+            <a
+              href="https://github.com/leoRysing/DS-3000-final-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Code
             </a>
           </h3>

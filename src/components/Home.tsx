@@ -26,7 +26,7 @@ function Home() {
         If you would like to contact me, email me at zachnorman02 [at] gmail
         [dot] com.
       </p>
-      <em>Work in Progress - Last Updated Feb 2023</em>
+      <em>Work in Progress - Last Updated Mar 2023</em>
     </div>
   );
 }
