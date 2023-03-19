@@ -1,3 +1,12 @@
+html, body {
+  height: 100%;
+}
+
+#page-content {
+  min-height: 100%;
+  position: relative;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
@@ -26,7 +35,8 @@ a:hover {
 }
 
 .content {
-  padding: 10px 50px;
+  padding: 10px 50px 100px 50px;
+  min-height: calc(100vh - 150px);
 }
 
 .content h1 {
