@@ -5,8 +5,16 @@ function Resume() {
   return (
     <div className="content">
       <h1>Resume</h1>
-      <a href="/">PDF Version (Coming Soon)</a>
-      <a href="https://www.linkedin.com/in/zachnorman02">LinkedIn</a>
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        PDF Version (Coming Soon)
+      </a>{" "}
+      <a
+        href="https://www.linkedin.com/in/zachnorman02"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
       <p>Last Updated: March 2023</p>
       <h2>Education</h2>
       <table id="education">
@@ -435,6 +443,16 @@ function Resume() {
               <li>
                 Wrote driving software for the VexU competition robots in C++
                 using the PROS and okapi libraries.
+              </li>
+              <li>
+                Github Repo:{" "}
+                <a
+                  href="https://github.com/zachnorman02/HSKY"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://github.com/zachnorman02/HSKY
+                </a>
               </li>
             </ul>
           </td>
