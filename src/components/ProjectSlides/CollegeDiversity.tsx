@@ -1,10 +1,17 @@
+import CollegeImage from "../../images/DS3000.png";
+
 function CollegeDiversity() {
-    return (
-      <div className="project">
+  return (
+    <div className="project">
+      <div className="project-image">
+        <img id="college-image" alt="College Diversity Project" src={CollegeImage}></img>
+      </div>
+      <div className="project-caption project-pad-right">
         <h2>Analyzing College Diversity</h2>
         <h3>
           May - June 2021 | DS 3000 (Foundations of Data Science) Final Project
-          •{" "}
+        </h3>
+        <h3>
           <a
             href="https://github.com/leoRysing/DS-3000-final-project"
             target="_blank"
@@ -28,7 +35,8 @@ function CollegeDiversity() {
           for visualization.
         </p>
       </div>
-    );
+    </div>
+  );
 }
 
 export default CollegeDiversity;

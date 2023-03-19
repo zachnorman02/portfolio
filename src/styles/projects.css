@@ -1,3 +1,7 @@
+.project {
+    display: flex;
+}
+
 .project h2,
 .project h3 {
     margin-bottom: 5px;
@@ -10,6 +14,35 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.carousel .slide img {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project-pad-left {
+    margin-left: 70px;
+}
+
+.project-pad-right {
+    margin-right: 70px;
+}
+
+.project-image, #coveytown-image, #csgo-image {
+    width: 50%;
+}
+
+#college-image {
+    width: 70%;
+}
+
+.project-caption {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
 }
 
 .carousel-root {

@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { isMobile } from "react-device-detect";
-import "../styles/projects.css";
 import WebGLImageProcessor from "./ProjectSlides/WebGLImageProcessor";
 import CoveyTown from "./ProjectSlides/CoveyTown";
 import CSGO from "./ProjectSlides/CSGO";
 import OODImageProcessor from "./ProjectSlides/OODImageProcessor";
 import CollegeDiversity from "./ProjectSlides/CollegeDiversity";
+import "../styles/projects.css";
 
 function Projects() {
   const [swipe, setSwipe] = useState(true);

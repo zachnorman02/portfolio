@@ -1,10 +1,22 @@
+import CoveyTownImage from "../../images/CoveyTown.png";
+
 function CoveyTown() {
-    return (
-      <div className="project">
+  return (
+    <div className="project">
+      <div className="project-image">
+        <img
+          id="coveytown-image"
+          alt="CoveyTown Project"
+          src={CoveyTownImage}
+        ></img>
+      </div>
+      <div className="project-caption">
         <h2>Covey.town Polling Area</h2>
         <h3>
           November - December 2022 • CS 4530 (Software Engineering) Final
-          Project •{" "}
+          Project
+        </h3>
+        <h3>
           <a
             href="https://github.com/neu-cs4530/fall-22-team-project-group-413"
             target="_blank"
@@ -36,7 +48,8 @@ function CoveyTown() {
           window.
         </p>
       </div>
-    );
+    </div>
+  );
 }
 
 export default CoveyTown;
