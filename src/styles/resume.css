@@ -6,6 +6,10 @@
     height: 100%;
 }
 
+.css-692fgp, .css-vcfpfv, .css-1b3lipl:before {
+    background-color: rgba(0,0,0,0.5)!important;
+}
+
 /* .css-1b3lipl {
     display: flex;
     flex-direction: column;
