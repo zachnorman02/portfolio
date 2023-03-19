@@ -3,8 +3,6 @@ import EC from "./ResumePieces/EC";
 import Experience from "./ResumePieces/Experience";
 import School from "./ResumePieces/School";
 import Skills from "./ResumePieces/Skills";
-const Timeline = require("react-timeline-scribble").Timeline;
-const Event = require("react-timeline-scribble").Event;
 
 function Resume() {
   return (
