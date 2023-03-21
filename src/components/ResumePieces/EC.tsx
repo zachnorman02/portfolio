@@ -39,7 +39,7 @@ function EC() {
           <ul>
             <li>
               Fixed various resizing bugs across FinishLine, the project
-              management dashboard for 120+ club members and 80+ projects
+              management dashboard for 200+ club members and 80+ projects
             </li>
           </ul>
         </Event>
