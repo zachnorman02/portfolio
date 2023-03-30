@@ -1,0 +1,29 @@
+.modal-bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    width: 75vh;
+    height: 75vh;
+    background-color: white;
+}
+
+.modal-close {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background: none;
+    border: none;
+}
