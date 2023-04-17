@@ -9,7 +9,7 @@ function EC() {
         <Event
           interval={"Jan - Apr 2023"}
           title={"Generate Product Development - Boston, MA"}
-          subtitle={"Website Developer (Extracurricular) • JavaScript, React"}
+          subtitle={"Website Developer • JavaScript, React"}
         >
           <ul>
             <li>
@@ -33,7 +33,7 @@ function EC() {
           interval={"Sep 2022 - Apr 2023"}
           title={"Northeastern Electric Racing - Boston, MA"}
           subtitle={
-            "Software Solutions Developer (Extracurricular) • TypeScript, React"
+            "Software Solutions Developer • TypeScript, React"
           }
         >
           <ul>

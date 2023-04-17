@@ -8,6 +8,8 @@ import CSGO from "./ProjectSlides/CSGO";
 import OODImageProcessor from "./ProjectSlides/OODImageProcessor";
 import CollegeDiversity from "./ProjectSlides/CollegeDiversity";
 import "../styles/projects.css";
+import SportsBetting from "./ProjectSlides/SportsBetting";
+import KnotAProblem from "./ProjectSlides/KnotAProblem";
 
 function Projects() {
   const [swipe, setSwipe] = useState(true);
@@ -47,6 +49,8 @@ function Projects() {
         <CSGO/>
         <OODImageProcessor/>
         <CollegeDiversity/>
+        <SportsBetting/>
+        <KnotAProblem/>
       </Carousel>
     </div>
   );
