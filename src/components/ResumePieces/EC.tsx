@@ -16,7 +16,8 @@ function EC() {
               Implemented mobile-supported pages for the club website, seen by
               100+ club members and the Northeastern community
             </li>
-            <li>Fix resizing and linking bugs across the website</li>
+            <li>Fixed resizing and linking bugs across the website</li>
+            <li>Created new projects page to show off past club projects</li>
             <li>
               Site:{" "}
               <a
@@ -27,19 +28,37 @@ function EC() {
                 https://www.generatenu.com
               </a>
             </li>
+            <li>
+              GitHub Repo:{" "}
+              <a
+                href="https://github.com/GenerateNU/website"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/GenerateNU/website
+              </a>
+            </li>
           </ul>
         </Event>
         <Event
           interval={"Sep 2022 - Apr 2023"}
           title={"Northeastern Electric Racing - Boston, MA"}
-          subtitle={
-            "Software Solutions Developer • TypeScript, React"
-          }
+          subtitle={"Software Solutions Developer • TypeScript, React"}
         >
           <ul>
             <li>
               Fixed various resizing bugs across FinishLine, the project
               management dashboard for 200+ club members and 80+ projects
+            </li>
+            <li>
+              GitHub Repo:{" "}
+              <a
+                href="https://github.com/Northeastern-Electric-Racing/FinishLine"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/Northeastern-Electric-Racing/FinishLine
+              </a>
             </li>
           </ul>
         </Event>
@@ -54,7 +73,7 @@ function EC() {
               using the PROS and okapi libraries.
             </li>
             <li>
-              Github Repo:{" "}
+              GitHub Repo:{" "}
               <a
                 href="https://github.com/zachnorman02/HSKY"
                 target="_blank"

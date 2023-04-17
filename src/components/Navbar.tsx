@@ -35,7 +35,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+          GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/zachnorman02"
