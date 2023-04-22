@@ -13,11 +13,20 @@ function EC() {
         >
           <ul>
             <li>
-              Implemented mobile-supported pages for the club website, seen by
-              100+ club members and the Northeastern community
+              Worked on Website team, developing the website that gives
+              information about Generate Product Development with 140+ members,
+              and its projects, teams, and engagements, for use by clients and
+              the Northeastern community
             </li>
-            <li>Fixed resizing and linking bugs across the website</li>
-            <li>Created new projects page to show off past club projects</li>
+            <li>
+              Contributed to development on mobile versions of Landing and
+              Culture pages
+            </li>
+            <li>Fixed page resizing issues on Culture page and Footer</li>
+            <li>
+              Collaborated on the creation of the new Projects page to show past
+              Generate projects, including a mobile-supported version
+            </li>
             <li>
               Site:{" "}
               <a
@@ -47,8 +56,23 @@ function EC() {
         >
           <ul>
             <li>
-              Fixed various resizing bugs across FinishLine, the project
-              management dashboard for 200+ club members and 80+ projects
+              Contributed to FinishLine, the project management dashboard for
+              Northeastern Electric Racing, which has 200+ club members and 80+
+              projects across the club
+            </li>
+            <li>
+              Fixed bug with tooltips cutting off when overflowing off screen,
+              adding functionality for dynamic tooltip positioning based on
+              screen size
+            </li>
+            <li>
+              Contributed to the switch from FontAwesome to MaterialUI for
+              dashboard UI
+            </li>
+            <li>Added public attribution of dashboard contributors</li>
+            <li>
+              Wrote tests, table text wrapping, and various other
+              quality-of-life improvements to the dashboard
             </li>
             <li>
               GitHub Repo:{" "}
