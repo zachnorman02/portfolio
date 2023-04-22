@@ -8,7 +8,7 @@ function Resume() {
   return (
     <div className="content">
       <h1>Resume</h1>
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="/" target="_blank" rel="noopener noreferrer" style={{pointerEvents: 'none'}}>
         PDF Version (Coming Soon)
       </a>{" "}
       <a
