@@ -1,5 +1,3 @@
-import KnotAProblemImage from "../../images/KnotAProblem.png";
-
 function KnotAProblem() {
   return (
     <div className="project">
@@ -13,8 +11,6 @@ function KnotAProblem() {
         <iframe
           title="Knot A Problem Prototype"
           id="knotaproblem-prototype"
-          width="800"
-          height="450"
           src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBeyda8QtppptPjAg3s854P%2FKnot-A-Problem%3Fpage-id%3D0%253A1%26node-id%3D196-271%26viewport%3D635%252C-136%252C0.27%26scaling%3Dscale-down%26starting-point-node-id%3D196%253A271"
           allowFullScreen
         ></iframe>

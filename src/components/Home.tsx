@@ -10,7 +10,7 @@ function Home() {
         </div>
       </div>
       <p>
-        Hi, I'm Zach. I am graduating in May 2023 with my Bachelor's in Computer
+        Hi, I'm Zach. I just graduated in April 2023 with my Bachelor's in Computer
         Science and Math from Northeastern University, and will be starting
         shortly after as an Application Engineer at Vanguard. I am interested in
         software development, data science, and web development. Through
@@ -28,7 +28,7 @@ function Home() {
         If you would like to contact me, email me at zachnorman02 [at] gmail
         [dot] com.
       </p>
-      <em>Work in Progress - Last Updated Mar 2023</em>
+      <em>Work in Progress - Last Updated Apr 2023</em>
     </div>
   );
 }

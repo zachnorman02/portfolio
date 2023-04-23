@@ -19,6 +19,7 @@
 .carousel .slide img {
     height: auto;
     margin-bottom: 20px;
+    width: -webkit-fill-available;
 }
 
 .project-pad-left {
@@ -77,8 +78,8 @@
 
 #knotaproblem-prototype {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 800px;
-    height: 50vh;
+    width: 50%;
+    height: 100%;
 }
 
 @media only screen and (max-device-width: 650px) {
