@@ -10,7 +10,11 @@ function Experience() {
             interval={"May 2023 - Present"}
             title={"Vanguard  - Malvern, PA"}
             subtitle={"Application Engineer (Full-Time)"}
-          ></Event>
+          >
+            <ul>
+              <li>TBD, I just started</li>
+            </ul>
+          </Event>
           <Event
             interval={"Feb 2022 - Nov 2022"}
             title={"Orita - Remote"}

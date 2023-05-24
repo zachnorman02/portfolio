@@ -3,13 +3,18 @@ import EC from "./ResumePieces/EC";
 import Experience from "./ResumePieces/Experience";
 import School from "./ResumePieces/School";
 import Skills from "./ResumePieces/Skills";
+import ResumePDF from "../Norman_Zach_Resume.pdf"
 
 function Resume() {
   return (
     <div className="content">
       <h1>Resume</h1>
-      <a href="/" target="_blank" rel="noopener noreferrer" style={{pointerEvents: 'none'}}>
-        PDF Version (Coming Soon)
+      <a
+        href={ResumePDF}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        PDF Version
       </a>{" "}
       <a
         href="https://www.linkedin.com/in/zachnorman02"
@@ -18,7 +23,7 @@ function Resume() {
       >
         LinkedIn
       </a>
-      <p>Last Updated: March 2023</p>
+      <p>Last Updated: May 2023</p>
       <Skills />
       <div className="timelines">
         <School />
