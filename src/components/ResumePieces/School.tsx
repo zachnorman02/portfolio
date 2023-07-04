@@ -8,10 +8,9 @@ function School() {
       <Timeline>
         <Event
           interval={"Aug 2023 - May 2025"}
-          title={"TBD"}
-          subtitle={"Master's in Statistics"}
+          title={"Villanova University - College of Liberal Art and Sciences"}
+          subtitle={"Master of Science in Applied Statistics and Data Science"}
         >
-          Currently applying, expected to start Fall 2023 and finish Spring 2025
         </Event>
         <Event
           interval={"Sep 2020 - Apr 2023"}
