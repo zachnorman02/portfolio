@@ -1,4 +1,5 @@
 import "../styles/resume.css";
+import Certs from "./ResumePieces/Certs";
 import EC from "./ResumePieces/EC";
 import Experience from "./ResumePieces/Experience";
 import School from "./ResumePieces/School";
@@ -25,6 +26,7 @@ function Resume() {
       </a>
       <p>Last Updated: May 2023</p>
       <Skills />
+      <Certs />
       <div className="timelines">
         <School />
         <Experience />
