@@ -8,7 +8,7 @@ function Certs() {
               <strong>In progress:</strong>
             </td>
             <td>
-              <p>Capital Markets and Security Analyst</p>
+              <p>Capital Markets and Security Analyst,</p>
             </td>
             <td>
               <em>Corportate Finance Institute</em>
