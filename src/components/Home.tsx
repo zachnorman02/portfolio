@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/home.css";
 
 function Home() {
@@ -10,13 +9,14 @@ function Home() {
         </div>
       </div>
       <p>
-        Hi, I'm Zach. I just graduated in April 2023 with my Bachelor's in Computer
-        Science and Math from Northeastern University, and will be starting
-        shortly after as an Application Engineer at Vanguard. I am interested in
-        software development, data science, and web development. Through
-        previous projects and work experience, I have lots of development
-        experience across a wide range of languages and technologies. I am also
-        in the process of applying to Master's degree programs.
+        Hi, I'm Zach. I just graduated in April 2023 with my Bachelor's in
+        Computer Science and Math from Northeastern University, and will be
+        starting shortly after as an Application Engineer at Vanguard. I am
+        interested in software development, data science, and web development.
+        Through previous projects and work experience, I have lots of
+        development experience across a wide range of languages and
+        technologies. I am also in the process of applying to Master's degree
+        programs.
       </p>
       <p>
         This site is a work-in-progress in terms of aesthetics, however the vast
@@ -27,7 +27,7 @@ function Home() {
         If you would like to contact me, email me at zachnorman02 [at] gmail
         [dot] com.
       </p>
-      <em>Work in Progress - Last Updated Apr 2023</em>
+      <em>Work in Progress - Last Updated Nov 2023</em>
     </div>
   );
 }

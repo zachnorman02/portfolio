@@ -9,20 +9,12 @@ function Classes() {
         Work in Progress - A list of the coursework I have taken that may be
         relevant
       </p>
-      <strong>McDonogh School (High School)</strong>
+      <strong>Villanova University (Graduate)</strong>
       <ul>
-        <li>AP Macroeconomics and Microeconomics</li>
-        <li>AP Calculus AB + BC</li>
-        <li>AP Computer Science A • Java</li>
-        <li>AP Physics C</li>
-        <li>
-          Post-AP Computer Science
-          <ul>
-            <li>Computational Math • Python, SageMath</li>
-            <li>Computational Physics 1 & 2 • Java, Processing</li>
-            <li>Cybersecurity</li>
-          </ul>
-        </li>
+        <li>Statistical Programming (STAT 7500) • R, SAS</li>
+        <li>Statistical Theory I & II (STAT 8400 & 8401)</li>
+        <li>Nonparametric Statistics (STAT 8452)</li>
+        <li>Regression Methods (STAT 8406)</li>
       </ul>
       <strong>Northeastern University (Undergraduate)</strong>
       <ul>
@@ -57,6 +49,21 @@ function Classes() {
         <li>Machine Learning & Data Mining 1 • Python, Pytorch</li>
         <li>Fundamentals of Software Engineering (CS 4530) • TypeScript</li>
         <li>Statistics & Stochastic Processes (MATH 4581)</li>
+      </ul>
+      <strong>McDonogh School (High School)</strong>
+      <ul>
+        <li>AP Macroeconomics and Microeconomics</li>
+        <li>AP Calculus AB + BC</li>
+        <li>AP Computer Science A • Java</li>
+        <li>AP Physics C</li>
+        <li>
+          Post-AP Computer Science
+          <ul>
+            <li>Computational Math • Python, SageMath</li>
+            <li>Computational Physics 1 & 2 • Java, Processing</li>
+            <li>Cybersecurity</li>
+          </ul>
+        </li>
       </ul>
     </div>
   );

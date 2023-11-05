@@ -2,17 +2,23 @@ function Certs() {
     return (
       <>
         <h2>Certifications</h2>
-        <table id="certifications">
-          <tr>
-            <td>
-              <strong>In progress:</strong>
-            </td>
-            <td>
-              <p>Capital Markets and Security Analyst,</p>{" "}
-              <em>Corporate Finance Institute</em>
-            </td>
-          </tr>
-        </table>
+        <ul>
+          <li>Corporate Finance Institute</li>
+          <ul>
+            <li>
+              Capital Markets & Securities Analyst <em>(In progress)</em>
+            </li>
+          </ul>
+          <li>Coursera</li>
+          <ul>
+            <li>
+              Google Data Analytics Professional Certificate <em>(May 2023)</em>
+            </li>
+            <li>
+              Google UX Design Professional Certificate <em>(June 2022)</em>
+            </li>
+          </ul>
+        </ul>
       </>
     );
 }

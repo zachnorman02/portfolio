@@ -7,7 +7,7 @@ function School() {
       <h2>Education</h2>
       <Timeline>
         <Event
-          interval={"Aug 2023 - May 2025"}
+          interval={"Aug 2023 - Dec 2024"}
           title={"Villanova University - College of Liberal Art and Sciences"}
           subtitle={"Master of Science in Applied Statistics and Data Science"}
         >

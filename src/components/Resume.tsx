@@ -24,7 +24,7 @@ function Resume() {
       >
         LinkedIn
       </a>
-      <p>Last Updated: May 2023</p>
+      <p>Last Updated: Nov 2023</p>
       <Skills />
       <Certs />
       <div className="timelines">

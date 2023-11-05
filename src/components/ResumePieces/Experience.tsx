@@ -12,7 +12,9 @@ function Experience() {
             subtitle={"Application Engineer (Full-Time)"}
           >
             <ul>
-              <li>TBD, I just started</li>
+              <li>Lead effort to keep database and daily job versions up-to-date to ensure cost-savings, efficiency, and security</li>
+              <li>Oversee processes for daily reports to ensure successful and on-time completion</li>
+              <li>Hopefully more in the future</li>
             </ul>
           </Event>
           <Event
