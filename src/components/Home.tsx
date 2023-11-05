@@ -21,8 +21,7 @@ function Home() {
       <p>
         This site is a work-in-progress in terms of aesthetics, however the vast
         majority of the site is complete, with the exception of this home page,
-        where I want to add more information later. I am also in the process of
-        adding a blog. It is linked in the navbar, though it is currently empty.
+        where I want to add more information later.
       </p>
       <p>
         If you would like to contact me, email me at zachnorman02 [at] gmail
