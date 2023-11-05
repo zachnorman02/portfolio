@@ -27,9 +27,13 @@ function Navbar() {
         <Link to="/classes" onClick={() => setNavbarOpen(!navbarOpen)}>
           Classes
         </Link>
-        {/* <Link to="/blog" onClick={() => setNavbarOpen(!navbarOpen)}>
+        <a
+          href="https://zachnorman02.atlassian.net/wiki/spaces/~63361d2861dbef2805c0363d/overview"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Blog
-        </Link> */}
+        </a>
         <a
           href="https://www.github.com/zachnorman02"
           target="_blank"
