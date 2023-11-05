@@ -28,7 +28,7 @@ function Navbar() {
           Classes
         </Link>
         <a
-          href="https://zachnorman02.atlassian.net/wiki/spaces/~63361d2861dbef2805c0363d/overview"
+          href="https://zachnorman02.substack.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
