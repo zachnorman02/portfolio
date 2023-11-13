@@ -2,9 +2,20 @@ import React from 'react';
 import '../styles/navbar.css';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { Link} from 'react-router-dom';
+import ReactGA from "react-ga";
+const TRACKING_ID = "G-G33T7R2YL3";
+ReactGA.initialize(TRACKING_ID);
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState<boolean>(false);
+
+  function handleClick(link: string) {
+      ReactGA.event({
+          category: 'Navigation',
+          action: 'Clicked Link',
+          label: link
+      });
+  }
 
   return (
     <div className="navbar">
@@ -15,22 +26,49 @@ function Navbar() {
         {navbarOpen ? <FaTimes /> : <FaBars />}
       </button>
       <div className={`links ${navbarOpen ? "open" : ""}`} id="navbar-links">
-        <Link to="/" onClick={() => setNavbarOpen(!navbarOpen)}>
+        <Link
+          to="/"
+          onClick={() => {
+            setNavbarOpen(!navbarOpen);
+            handleClick("Home");
+          }}
+        >
           Home
         </Link>
-        <Link to="/projects" onClick={() => setNavbarOpen(!navbarOpen)}>
+        <Link
+          to="/projects"
+          onClick={() => {
+            setNavbarOpen(!navbarOpen);
+            handleClick("Projects");
+          }}
+        >
           Projects
         </Link>
-        <Link to="/resume" onClick={() => setNavbarOpen(!navbarOpen)}>
+        <Link
+          to="/resume"
+          onClick={() => {
+            setNavbarOpen(!navbarOpen);
+            handleClick("Resume");
+          }}
+        >
           Resume
         </Link>
-        <Link to="/classes" onClick={() => setNavbarOpen(!navbarOpen)}>
+        <Link
+          to="/classes"
+          onClick={() => {
+            setNavbarOpen(!navbarOpen);
+            handleClick("Classes");
+          }}
+        >
           Classes
         </Link>
         <a
           href="https://zachnorman02.substack.com/"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+            handleClick("Blog");
+          }}
         >
           Blog
         </a>
@@ -38,6 +76,9 @@ function Navbar() {
           href="https://www.github.com/zachnorman02"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+            handleClick("GitHub");
+          }}
         >
           GitHub
         </a>
@@ -45,6 +86,9 @@ function Navbar() {
           href="https://www.linkedin.com/in/zachnorman02"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+            handleClick("LinkedIn");
+          }}
         >
           LinkedIn
         </a>
