@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/navbar.css';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { Link} from 'react-router-dom';
 import ReactGA from "react-ga";
+import { isMobile } from 'react-device-detect';
 const TRACKING_ID = "G-G33T7R2YL3";
 ReactGA.initialize(TRACKING_ID);
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState<boolean>(false);
+
+  useEffect(() => {
+    if (isMobile) {
+      if (navbarOpen) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "auto";
+      }
+    }
+  }, [navbarOpen])
 
   function handleClick(link: string) {
       ReactGA.event({
