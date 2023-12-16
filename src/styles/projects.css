@@ -93,5 +93,10 @@
 
     .project {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .slider.animated {
+        align-items: flex-start;
     }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { isMobile } from "react-device-detect";
@@ -10,9 +10,25 @@ import CollegeDiversity from "./ProjectSlides/CollegeDiversity";
 import "../styles/projects.css";
 import SportsBetting from "./ProjectSlides/SportsBetting";
 import KnotAProblem from "./ProjectSlides/KnotAProblem";
+import WalmartData from "./ProjectSlides/WalmartData";
 
 function Projects() {
   const [swipe, setSwipe] = useState(true);
+  const [currentSlide, setCurrentSlide] = useState(0);
+  useEffect(() => {
+    if (isMobile) {
+      const selectedElement = document.querySelector(".slide.selected");
+      if (selectedElement) {
+        const carouselWrapper = document.querySelector(
+          ".slider-wrapper"
+        ) as HTMLElement;
+        if (carouselWrapper) {
+          const height = selectedElement.getBoundingClientRect().height;
+          carouselWrapper.style.height = `${height}px`;
+        }
+      }
+    }
+  }, [currentSlide]);
 
   return (
     <div className="content">
@@ -28,7 +44,7 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub 
+          GitHub
         </a>
         .
       </p>
@@ -41,16 +57,17 @@ function Projects() {
         showStatus={false}
         emulateTouch={swipe}
         infiniteLoop={true}
-        dynamicHeight={isMobile}
         useKeyboardArrows={true}
+        onChange={(index) => {setCurrentSlide(index);}}
       >
-        <WebGLImageProcessor/>
-        <CoveyTown/>
-        <CSGO/>
-        <OODImageProcessor/>
-        <CollegeDiversity/>
-        <SportsBetting/>
-        <KnotAProblem/>
+        <WebGLImageProcessor />
+        <CoveyTown />
+        <CSGO />
+        <OODImageProcessor />
+        <CollegeDiversity />
+        <SportsBetting />
+        <KnotAProblem />
+        <WalmartData />
       </Carousel>
     </div>
   );
