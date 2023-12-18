@@ -11,6 +11,7 @@ import "../styles/projects.css";
 import SportsBetting from "./ProjectSlides/SportsBetting";
 import KnotAProblem from "./ProjectSlides/KnotAProblem";
 import WalmartData from "./ProjectSlides/WalmartData";
+import SleepData from "./ProjectSlides/SleepData";
 
 function Projects() {
   const [swipe, setSwipe] = useState(true);
@@ -68,6 +69,7 @@ function Projects() {
         <SportsBetting />
         <KnotAProblem />
         <WalmartData />
+        <SleepData />
       </Carousel>
     </div>
   );
