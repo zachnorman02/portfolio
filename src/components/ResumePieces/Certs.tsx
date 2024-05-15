@@ -8,6 +8,9 @@ function Certs() {
             <li>
               Capital Markets & Securities Analyst <em>(In progress)</em>
             </li>
+            <li>
+              Business Intelligence & Data Analyst <em>(In progress)</em>
+            </li>
           </ul>
           <li>Coursera</li>
           <ul>

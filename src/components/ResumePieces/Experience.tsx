@@ -9,12 +9,10 @@ function Experience() {
           <Event
             interval={"May 2023 - Present"}
             title={"Vanguard  - Malvern, PA"}
-            subtitle={"Application Engineer (Full-Time)"}
+            subtitle={"Application Engineer I (Full-Time)"}
           >
             <ul>
-              <li>Lead effort to keep database and daily job versions up-to-date to ensure cost-savings, efficiency, and security</li>
-              <li>Oversee processes for daily reports to ensure successful and on-time completion</li>
-              <li>Hopefully more in the future</li>
+              <li>Chillin'</li>
             </ul>
           </Event>
           <Event
