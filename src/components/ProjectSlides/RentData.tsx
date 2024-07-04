@@ -13,7 +13,7 @@ function RentData() {
       </div>
       <div className="project-caption">
         <h2>Analyzing Rent Data</h2>
-        <h3>March - May 2024 • STAT 8406 (Regression Methods) Final Project</h3>
+        <h3>March - May 2024 • STAT 8406 (Regression Methods)<br/> Final Project</h3>
         <h3>
           <a
             href="https://github.com/zachnorman02/STAT-8406-Final-Project"

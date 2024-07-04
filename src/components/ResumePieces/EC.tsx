@@ -108,6 +108,65 @@ function EC() {
             </li>
           </ul>
         </Event>
+        <Event
+          interval={"June 2016 - Apr 2022"}
+          title={"McDonogh Robotics  - Owings Mills, MD"}
+          subtitle={
+            "FRC Hardware Member, Scouting Lead, Captain • Construction • Java"
+          }
+        >
+          <ul>
+            <li>
+              As a student (2016-2020):
+              <ul className="sublist">
+                <li>
+                  Helped with mechanical planning and building of FRC
+                  competition robots
+                </li>
+                <li>
+                  Led team efforts for scouting robots at competitions during
+                  junior and senior years of high school
+                </li>
+                <li>
+                  Planned team meetings and organized robot build and
+                  competition plans during senior year of high school
+                </li>
+              </ul>
+            </li>
+            <li>
+              After graduation (2020-2022), assisted high school students
+              throughout the robotics season with building a competition-ready
+              robot, using what I had learned from my time on the team
+            </li>
+          </ul>
+        </Event>
+        <Event
+          interval={"Sep 2016 - May 2020"}
+          title={"Technology Consultant - Owings Mills, MD"}
+          subtitle={"Member, Leader"}
+        >
+          <ul>
+            <li>
+              Student club for assisting other students and faculty with various
+              technology issues. Involved troubleshooting common issues and
+              creating educational resources for the school community. I was the
+              leader of the club my senior year.
+            </li>
+          </ul>
+        </Event>
+        <Event
+          interval={"Aug 2019 - May 2020"}
+          title={"Peer Education - Owings Mills, MD"}
+        >
+          <ul>
+            <li>
+              Worked with 7th and 8th grade students on various social-emotional
+              learning topics such as mental health, peer pressure, and other
+              issues commonly affecting middle school students. Also assisted
+              8th graders in feeling prepared for the transition to high school.
+            </li>
+          </ul>
+        </Event>
       </Timeline>
     </div>
   );

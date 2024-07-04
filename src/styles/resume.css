@@ -36,6 +36,10 @@
     display: flex;
 }
 
+.sublist {
+    margin-left: 40px!important;
+} 
+
 @media only screen and (max-width: 650px) {
     .timelines {
         flex-direction: column;
