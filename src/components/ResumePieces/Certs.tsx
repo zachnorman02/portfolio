@@ -6,7 +6,7 @@ function Certs() {
           <li>Corporate Finance Institute</li>
           <ul>
             <li>
-              Capital Markets & Securities Analyst <em>(In progress)</em>
+              Capital Markets & Securities Analyst <em>(September 2024)</em>
             </li>
             <li>
               Business Intelligence & Data Analyst <em>(In progress)</em>
