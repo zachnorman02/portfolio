@@ -23,3 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 .env
 package-lock.json
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
