@@ -5,7 +5,7 @@ import EC from "./ResumePieces/EC";
 import Experience from "./ResumePieces/Experience";
 import School from "./ResumePieces/School";
 import Skills from "./ResumePieces/Skills";
-import ResumePDF from "../Norman_Zach_Resume.pdf";
+import ResumePDF from "../latex_files/resume.pdf";
 
 function Resume() {
   const [lastModified, setLastModified] = useState("");
@@ -14,7 +14,7 @@ function Resume() {
     const fetchLastModified = async () => {
       try {
         const response = await fetch(
-          "https://api.github.com/repos/zachnorman02/portfolio/commits?path=src/Norman_Zach_Resume.pdf"
+          "https://api.github.com/repos/zachnorman02/portfolio/commits?path=src/latex_files/resume.pdf"
         );
         const data = await response.json();
         if (data && data.length > 0) {
