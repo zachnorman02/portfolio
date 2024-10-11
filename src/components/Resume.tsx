@@ -5,7 +5,7 @@ import EC from "./ResumePieces/EC";
 import Experience from "./ResumePieces/Experience";
 import School from "./ResumePieces/School";
 import Skills from "./ResumePieces/Skills";
-import ResumePDF from "../Norman_Zach_Resume.pdf";
+import ResumePDF from "../latex_files/resume.pdf";
 
 function Resume() {
   const [lastModified, setLastModified] = useState("");
