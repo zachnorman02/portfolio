@@ -20,7 +20,7 @@
 \usepackage{amsmath} % for math
 \usepackage[
     pdftitle={Zach Norman Resume},
-    pdfauthor={Zach},
+    pdfauthor={Zach Norman},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
     urlcolor=primaryColor
@@ -150,7 +150,6 @@
 
 % new command for external links:
 
-
 \begin{document}
     \newcommand{\AND}{\unskip
         \cleaders\copy\ANDbox\hskip\wd\ANDbox
@@ -172,15 +171,16 @@
         \mbox{\hrefWithoutArrow{mailto:zachnorman02@gmail.com}{zachnorman02@gmail.com}}%
         \kern 5.0 pt%
         \AND%
-        % \kern 5.0 pt%
-        % \mbox{\hrefWithoutArrow{tel:+1-410-596-6777}{(410) 596-6777}}%
-        % \kern 5.0 pt%
-        % \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+1-410-596-6777}{(410) 596-6777}}%
+        \kern 5.0 pt%
+        \AND%
         % \kern 5.0 pt%
         % \mbox{\hrefWithoutArrow{https://yourwebsite.com/}{yourwebsite.com}}%
         % \kern 5.0 pt%
         % \AND%
-        \kern 5.0 pt%
+        % \kern 5.0 pt%
+        \\
         \mbox{\hrefWithoutArrow{https://linkedin.com/in/zachnorman02}{linkedin.com/in/zachnorman02}}%
         \kern 5.0 pt%
         \AND%
@@ -195,21 +195,19 @@
         May 2023 - Present
     }
     \textbf{Application Engineer}, Vanguard -- Malvern, PA \end{twocolentry}
-    \textit{Python, AWS (Lambda, Glue, S3, IAM, Cloudformation), SQL}
     \vspace{0.10 cm}
     \begin{onecolentry}
       \begin{highlights}
         \item Develop AWS Lambda functions to ingest data from internal data lakes, APIs, and third-party platforms, performing transformations and loading data into S3 buckets, internal databases, or external platforms.
         \item Collaborate with business clients on building and enhancing data pipelines by gathering requirements, translating them into technical specifications, and creating detailed documentation for future reference.
-        \item Design data visualizations to monitor and track the success rates of daily business-critical reports to provide insights into common failures and areas for improvement or future development.
+        \item Design data visualizations using Plotly to monitor and track the success rates of 20+ daily business-critical reports to provide insights into common failures and areas for improvement or future development.
       \end{highlights}
     \end{onecolentry}
     \vspace{0.2 cm}
     \begin{twocolentry}{
         Feb 2022 - Nov 2022
     }
-    \textbf{Contracted Developer}, Orita \end{twocolentry}
-    \textit{Python, Django, HTML, JavaScript, Svelte}
+    \textbf{Contracted Developer}, Orita -- Remote \end{twocolentry}
     \vspace{0.10 cm}
     \begin{onecolentry}
       \begin{highlights}
@@ -222,13 +220,12 @@
         Jan 2022 - Sep 2022
     }
     \textbf{Developer Co-op}, Baltimore Orioles -- Baltimore, MD \end{twocolentry}
-    \textit{Python, JavaScript, Django, React}
     \vspace{0.10 cm}
     \begin{onecolentry}
       \begin{highlights}
-        \item Developed data retrieval, aggregation, and user interface for an amateur baseball player dashboard page that allowed for viewing and filtering data on 2000+ draft-eligible players.
-        \item Added edit features to game report audit pages, including the ability to add, delete, or reorder rows of data, and clear data columns, improving ability for coaches and analysts to correct and use game data.
-        \item Enchanced multiple AWS Lambda functions responsible for data retrieval, calculation, and upsert to ensure storage of accurate game and player data.
+        \item Developed data retrieval, aggregation, and user interface for an amateur baseball player dashboard page using Django and React that allowed for viewing and filtering data on 2000+ draft-eligible players.
+        \item Added edit features to game report audit pages, including the ability to add, delete, or reorder rows of data, and clear data columns, improving the accuracy and usability of data for coaches and analysts.
+        \item Enhanced multiple AWS Lambda functions responsible for data retrieval, calculation, and upsert to ensure storage of accurate game and player data.
       \end{highlights}
     \end{onecolentry}
     
@@ -273,20 +270,24 @@
     }
     \textbf{Villanova University}, MS in Applied Statistics and Data Science \end{twocolentry}
     % \vspace{0.10 cm}
-    \begin{onecolentry}
-        \textit{Villanova, PA}
-    \end{onecolentry}
+    \begin{twocolentry}{
+        \textit{GPA: 3.7/4.0}
+    }
+    \textit{Villanova, PA}
+    \end{twocolentry}
     \vspace{0.2 cm}
     \begin{twocolentry}{
         Sep 2020 - Apr 2023
     }
-    \textbf{Northeastern University}, BS in Computer Science and Mathematics\end{twocolentry}
+    \textbf{Northeastern University}, BS in Computer Science and Mathematics \end{twocolentry}
     % \vspace{0.10 cm}
-    \begin{onecolentry}
-        \textit{Boston, MA}
-    \end{onecolentry}
+    \begin{twocolentry}{
+        \textit{GPA: 3.4/4.0}
+    }
+    \textit{Boston, MA}
+    \end{twocolentry}
 
-    \section{Technologies}
+    \section{Technical Skills}
     \begin{onecolentry}
       \textbf{Languages:} Python, R, JavaScript/TypeScript, Java, SQL, HTML, CSS
     \end{onecolentry}
@@ -294,6 +295,6 @@
       \textbf{Frameworks/Libraries:} React, Svelte, Django, pandas, Plotly, scikit-learn, D3, tidyverse, WebGL
     \end{onecolentry}
     \begin{onecolentry}
-      \textbf{Tools:} Git, JetBrains IDEs, Visual Studio Code, Jupyter Notebook, AWS, Figma
+      \textbf{Tools:} Git, JetBrains IDEs, Visual Studio Code, Jupyter Notebook, AWS (Glue, Lambda, IAM, S3, Cloudformation)
     \end{onecolentry}
 \end{document}
