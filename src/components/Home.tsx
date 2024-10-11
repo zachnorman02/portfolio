@@ -21,7 +21,7 @@ function Home() {
       <p>
         This site is a work-in-progress in terms of aesthetics, however the vast
         majority of the site is complete, with the exception of this home page,
-        where I want to add more information later.
+        where I want to add more information later. You can find the GitHub for this site in the footer, where you'll find that this website was made using React.
       </p>
       <p>
         If you would like to contact me, email me at zachnorman02 [at] gmail
