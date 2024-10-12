@@ -15,6 +15,8 @@ function Classes() {
         <li>Statistical Theory I & II (STAT 8400 & 8401)</li>
         <li>Nonparametric Statistics (STAT 8452)</li>
         <li>Regression Methods (STAT 8406)</li>
+        <li>Linear Methods (STAT 8412)</li>
+        <li>Data Mining & Predictive Analytics (STAT 8480)</li>
       </ul>
       <strong>Northeastern University (Undergraduate)</strong>
       <ul>
