@@ -6,8 +6,8 @@ function Skills() {
           <tr>
             <td>
               <p>
-                <strong>Languages: </strong> Java, Python, JavaScript,
-                TypeScript, HTML, CSS, SQL, C++, LaTeX
+                <strong>Languages: </strong> Python, R, JavaScript/TypeScript,
+                Java, SQL, HTML, CSS, C++, LaTeX
               </p>
             </td>
           </tr>
@@ -23,7 +23,8 @@ function Skills() {
             <td>
               <p>
                 <strong>Tools and Technologies: </strong> JetBrains IDEs, VS
-                Code, Jupyter Notebook, AWS, Figma, Git, Docker
+                Code, Jupyter Notebook, AWS (Glue, Lambda, IAM, S3,
+                Cloudformation), Figma, Git, Docker
               </p>
             </td>
           </tr>

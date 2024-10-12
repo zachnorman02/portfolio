@@ -12,7 +12,24 @@ function Experience() {
             subtitle={"Application Engineer I (Full-Time)"}
           >
             <ul>
-              <li>Chillin'</li>
+              <li>
+                Build out AWS Lambda functions to extract data on 50,000+ funds,
+                benchmarks, and portfolios from internal data lakes, APIs, and
+                third-party platforms, transform, and load data into internal
+                and external platforms.
+              </li>
+              <li>
+                Communicate with business clients on building and enhancing data
+                pipelines by gathering requirements, translating them into
+                technical specifications, and creating detailed documentation
+                for future reference.
+              </li>
+              <li>
+                Design data visualizations using Plotly to monitor and track the
+                success rates of 20+ daily business-critical reports to provide
+                insights into common failures and areas for improvement and
+                future development roadmap.
+              </li>
             </ul>
           </Event>
           <Event
@@ -24,14 +41,15 @@ function Experience() {
           >
             <ul>
               <li>
-                Implemented the frontend in Svelte for a webpage with user
-                signup/login flow and options to upload data files or connect
-                external e-commerce data sources
+                Developed a Python program using Django to automate the
+                generation of business analytics reports from JSON data,
+                leveraging CSS and templates for cohesive and professional
+                report design.
               </li>
               <li>
-                Created a Python program to generate a PDF business report given
-                a JSON file using Django and CSS for page creation and
-                weasyprint for PDF conversion
+                Implemented a front-end interface using Svelte allowing
+                companies to upload their data and connect with third-party
+                e-commerce platforms.
               </li>
             </ul>
           </Event>
@@ -44,18 +62,22 @@ function Experience() {
           >
             <ul>
               <li>
-                Developed amateur baseball player dashboard page containing data
-                on draft-eligible players, retrieving and aggregating data from
-                multiple tables and displayed the data on the internal team
-                dashboard with various filtering options
+                Created data retrieval, aggregation, and the user interface for
+                an amateur baseball player dashboard page using Django and React
+                that allowed for viewing and filtering data on 32,000+
+                draft-eligible players, improving scouting efficiency and
+                decision-making for drafts.
               </li>
               <li>
-                Wrote data processes and AWS Lambda functions to aggregate or
-                correct data from games and update database tables using Django
+                Introduced advanced editing features for pitch-by-pitch game
+                audit pages, enabling coaches and analysts to add, delete,
+                reorder, and mass-update pitch data, resulting in improved data
+                accuracy and usability.
               </li>
               <li>
-                Added various improvements and features to pre-existing pages on
-                the internal team dashboard
+                Updated multiple AWS Lambda functions responsible for data
+                retrieval, calculation, and population to ensure storage of
+                accurate game and player data.
               </li>
             </ul>
           </Event>
@@ -70,7 +92,7 @@ function Experience() {
                 Plotly Dash by implementing a responsive layout and building a
                 mobile-friendly navigation menu
               </li>
-              <li>
+              {/* <li>
                 Site:{" "}
                 <a
                   href="https://www.secretanalytics.xyz"
@@ -79,7 +101,7 @@ function Experience() {
                 >
                   https://www.secretanalytics.xyz
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Event>
           <Event
@@ -115,7 +137,9 @@ function Experience() {
           <Event
             interval={"May - Aug 2019; June 2020 - May 2021"}
             title={"McDonogh School - Owings Mills, MD"}
-            subtitle={"Technology Department Intern (Part-Time) • Computer Setup/Support, Networking, Technology Hardware and Infrastructure"}
+            subtitle={
+              "Technology Department Intern (Part-Time) • Computer Setup/Support, Networking, Technology Hardware and Infrastructure"
+            }
           >
             <ul>
               <li>
