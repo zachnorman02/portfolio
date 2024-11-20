@@ -26,8 +26,7 @@ function Classes() {
         </li>
         <li>Discrete Structures (CS 1800) • LaTeX</li>
         <li>
-          Fundamentals of Computer Science 1 & 2 Accel (CS 2500 & 2510A) • Dr.
-          Racket & Java
+          Fundamentals of Computer Science 1 & 2 Accel (CS 2500 & 2510A) • Racket (BSL, ISL) & Java
         </li>
         <li>Calculus 3 (MATH 2321)</li>
         <li>Linear Algebra (MATH 2331)</li>
