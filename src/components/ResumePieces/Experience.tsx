@@ -7,7 +7,12 @@ function Experience() {
         <h2>Work Experience</h2>
         <Timeline>
           <Event
-            interval={"May 2023 - Present"}
+            interval={"Nov 2024 - Present"}
+            title={"Vanguard  - Malvern, PA"}
+            subtitle={"Application Engineer II (Full-Time)"}
+          ></Event>
+          <Event
+            interval={"May 2023 - Nov 2023"}
             title={"Vanguard  - Malvern, PA"}
             subtitle={"Application Engineer I (Full-Time)"}
           >
