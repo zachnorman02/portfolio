@@ -3,7 +3,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { isMobile } from "react-device-detect";
 import WebGLImageProcessor from "./ProjectSlides/WebGLImageProcessor";
-import CoveyTown from "./ProjectSlides/CoveyTown";
 import CSGO from "./ProjectSlides/CSGO";
 import OODImageProcessor from "./ProjectSlides/OODImageProcessor";
 import CollegeDiversity from "./ProjectSlides/CollegeDiversity";
@@ -11,8 +10,8 @@ import "../styles/projects.css";
 import SportsBetting from "./ProjectSlides/SportsBetting";
 import KnotAProblem from "./ProjectSlides/KnotAProblem";
 import WalmartData from "./ProjectSlides/WalmartData";
-import SleepData from "./ProjectSlides/SleepData";
 import RentData from "./ProjectSlides/RentData";
+import XRays from "./ProjectSlides/XRays";
 
 function Projects() {
   const [swipe, setSwipe] = useState(true);
@@ -63,15 +62,14 @@ function Projects() {
         onChange={(index) => {setCurrentSlide(index);}}
       >
         <WebGLImageProcessor />
-        <CoveyTown />
         <CSGO />
         <OODImageProcessor />
         <CollegeDiversity />
         <SportsBetting />
         <KnotAProblem />
         <WalmartData />
-        <SleepData />
         <RentData />
+        <XRays />
       </Carousel>
     </div>
   );

@@ -15,7 +15,7 @@ function Skills() {
             <td>
               <p>
                 <strong>Frameworks and Libraries: </strong> React, Svelte,
-                Django, D3, pandas, scikit-learn, Plotly & Plotly-Dash, Seaborn
+                Django, D3, pandas, tidyverse, scikit-learn, Plotly & Plotly-Dash, Seaborn
               </p>
             </td>
           </tr>
