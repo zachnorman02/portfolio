@@ -63,17 +63,17 @@
     -1pt
 }{
     % top space:
-    0.3 cm
+    0.22 cm
 }{
     % bottom space:
-    0.2 cm
+    0.12 cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0.05 cm,
+        parsep=0.05 cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=0 cm + 10pt
@@ -85,8 +85,8 @@
 
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0.05 cm,
+        parsep=0.05 cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=10pt
@@ -196,32 +196,34 @@
         May 2023 - Present
     }
     \textbf{Application Engineer}, Vanguard -- Malvern, PA \end{twocolentry}
-    \vspace{0.10 cm}
+    \vspace{0.06 cm}
     \begin{onecolentry}
       \begin{highlights}
-        \item Build out AWS Lambda functions to extract data on 50,000+ funds, benchmarks, and portfolios from internal data lakes, APIs, and third-party platforms, transform, and load data into internal and external platforms.
-        \item Communicate with business clients on building and enhancing data pipelines by gathering requirements, translating them into technical specifications, and creating detailed documentation for future reference.
-        \item Design Plotly data visualizations to monitor and track the success rates of 20+ daily business-critical reports to provide insights into common failures and areas for improvement and future development roadmap.
+        \item Build AWS-based ETL pipelines (Lambda/Glue) that extract, transform, and distribute fund, benchmark, and portfolio data from internal data lakes, APIs, and third-party sources to PostgreSQL and downstream applications.
+        \item Develop the team's first React application for municipal bond analysis, including API Gateway integration and core data table workflows for fixed income stakeholders.
+        \item Design Tableau hedged share class reporting and Plotly monitoring views to improve transparency across daily business-critical processes and reduce manual reporting overhead.
+        \item Lead reliability and modernization work by upgrading PostgreSQL and AWS Glue components and migrating cron-based jobs to timezone-aware scheduling.
+        \item Serve as a Security Champion by identifying vulnerabilities and partnering with engineers to prioritize and remediate application risks.
       \end{highlights}
     \end{onecolentry}
-    \vspace{0.2 cm}
+    \vspace{0.12 cm}
     \begin{twocolentry}{
         Feb 2022 - Nov 2022
     }
     \textbf{Contracted Developer}, Orita -- Remote \end{twocolentry}
-    \vspace{0.10 cm}
+    \vspace{0.06 cm}
     \begin{onecolentry}
       \begin{highlights}
         \item Developed a Python program using Django to automate the generation of business analytics reports from JSON data, leveraging CSS and templates for cohesive and reusable report design.
         \item Implemented a front-end interface using Svelte, allowing companies to upload their data and connect with third-party e-commerce platforms, allowing their data to be analyzed for improved decision-making.
       \end{highlights}
     \end{onecolentry}
-    \vspace{0.2 cm}
+    \vspace{0.12 cm}
     \begin{twocolentry}{
         Jan 2022 - Sep 2022
     }
     \textbf{Developer Co-op}, Baltimore Orioles -- Baltimore, MD \end{twocolentry}
-    \vspace{0.10 cm}
+    \vspace{0.06 cm}
     \begin{onecolentry}
       \begin{highlights}
         \item Created data retrieval, aggregation, and the user interface for an amateur baseball player dashboard page using Django and React that allowed for viewing and filtering data on 32,000+ draft-eligible players, improving scouting efficiency and decision-making for drafts.
@@ -231,39 +233,28 @@
     \end{onecolentry}
     
     \section{Projects}
-        \begin{twocolentry}{
-            Feb 2023 - Apr 2023
+    \begin{twocolentry}{
+            Aug 2025 - Present
         }
-        \textbf{NBA Betting Visualization} \href{https://github.com/GenerateNU/website}{\textit{\underline{GitHub}}}, \href{https://ds4200-s23-class.github.io/project-zach-george-filip-travis/}{\textit{\underline{Website}}}\end{twocolentry}
-        \vspace{0.10 cm}
+        \textbf{Custom Discord Bot}\end{twocolentry}
+        \vspace{0.06 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Collaborated on building interactive D3 visualizations to compare betting odds across multiple sportsbooks for NBA games, leveraging data from The Odds API.
+                \item Maintain a Python-based Discord bot with slash-command admin automation, including conditional roles, channel restrictions, message mirroring, and scheduled role changes backed by PostgreSQL.
             \end{highlights}
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.12 cm}
         \begin{twocolentry}{
             Jan 2023 - Apr 2023
         }
         \textbf{Generate Website} \href{https://github.com/GenerateNU/website}{\textit{\underline{GitHub}}}\end{twocolentry}
-        \vspace{0.10 cm}
+        \vspace{0.06 cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Contributed to the React-based website for Generate, a student-led product development organization at Northeastern University, by introducing mobile responsiveness across the site to improve usability for current and prospective members and companies.
             \end{highlights}
         \end{onecolentry}
-        \vspace{0.2 cm}
-        \begin{twocolentry}{
-            Nov 2022 - Dec 2022
-        }
-        \textbf{Image Processor} \href{https://github.com/zachnorman02/webgl-image-processor}{\textit{\underline{GitHub}}}, \href{https://zachnorman02.github.io/webgl-image-processor/}{\textit{\underline{Website}}}\end{twocolentry}
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item  Created a WebGL-based application that allows users to upload images and apply custom kernel-based filters, enabling real-time image processing in the browser.
-            \end{highlights}
-        \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.12 cm}
 
     \section{Education}
     \begin{twocolentry}{
@@ -272,11 +263,11 @@
     \textbf{Villanova University}, MS in Applied Statistics and Data Science \end{twocolentry}
     % \vspace{0.10 cm}
     \begin{twocolentry}{
-        \textit{GPA: 3.6/4.0}
+        \textit{GPA: 3.8/4.0}
     }
     \textit{Villanova, PA}
     \end{twocolentry}
-    \vspace{0.2 cm}
+    \vspace{0.12 cm}
     \begin{twocolentry}{
         Sep 2020 - Apr 2023
     }
@@ -296,6 +287,6 @@
       \textbf{Frameworks/Libraries:} React, Svelte, Django, Flask, Pandas, Plotly, D3, Tidyverse, WebGL
     \end{onecolentry}
     \begin{onecolentry}
-      \textbf{Tools:} Git, AWS (Glue, Lambda, IAM, S3, Cloudformation), Docker, Figma
+      \textbf{Tools:} Git, AWS (Glue, Lambda, IAM, S3, Cloudformation, API Gateway, ECS), Docker
     \end{onecolentry}
 \end{document}
