@@ -18,22 +18,22 @@ function Experience() {
           >
             <ul>
               <li>
-                Build out AWS Lambda functions to extract data on 50,000+ funds,
-                benchmarks, and portfolios from internal data lakes, APIs, and
-                third-party platforms, transform, and load data into internal
-                and external platforms.
+                Build AWS-based ETL pipelines (Lambda/Glue) that extract, transform, and distribute fund, benchmark, and
+portfolio data from internal data lakes, APIs, and third-party sources to PostgreSQL and downstream
+applications.
               </li>
               <li>
-                Communicate with business clients on building and enhancing data
-                pipelines by gathering requirements, translating them into
-                technical specifications, and creating detailed documentation
-                for future reference.
+                Develop the team's first React application for municipal bond analysis, including API Gateway integration and
+core data table workflows for fixed income stakeholders.
               </li>
               <li>
-                Design data visualizations using Plotly to monitor and track the
-                success rates of 20+ daily business-critical reports to provide
-                insights into common failures and areas for improvement and
-                future development roadmap.
+                Build Tableau reports for hedged share classes to improve daily reporting for fixed income clients, reducing reliance on manual report creating and external files.
+              </li>
+              <li>
+                Lead reliability and modernization work by upgrading PostgreSQL and AWS Glue components and migrating cron-based jobs to timezone-aware scheduling.
+              </li>
+              <li>
+                Serve as a Security Champion by identifying vulnerabilities and partnering with engineers to prioritize and remediate application risks.
               </li>
             </ul>
           </Event>
