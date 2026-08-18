@@ -18,22 +18,19 @@ function Experience() {
           >
             <ul>
               <li>
-                Build AWS-based ETL pipelines (Lambda/Glue) that extract, transform, and distribute fund, benchmark, and
-portfolio data from internal data lakes, APIs, and third-party sources to PostgreSQL and downstream
-applications.
+                Built the foundational infrastructure for a full-stack internal analytics platform (React/AG-Grid UI, Okta-secured API Gateway, PostgreSQL/Athena backend) and new Tableau dashboards, replacing manual Excel-based reporting for analysts across Equity and Fixed Income.
               </li>
               <li>
-                Develop the team's first React application for municipal bond analysis, including API Gateway integration and
-core data table workflows for fixed income stakeholders.
+                Lead the team's reporting automation initiative, ramping up independently on unfamiliar systems to own prioritization, roadmap, and code reviews for a Playwright/UIPath suite recovering an estimated 25-30+ hours of analyst time daily
               </li>
               <li>
-                Build Tableau reports for hedged share classes to improve daily reporting for fixed income clients, reducing reliance on manual report creating and external files.
+                Architected serverless ETL pipelines in AWS Glue, Lambda, and S3 processing data across 50,000+ funds for downstream Risk Analytics and Performance Reporting, serving as the team's go-to resource for data troubleshooting and query support.
               </li>
               <li>
-                Lead reliability and modernization work by upgrading PostgreSQL and AWS Glue components and migrating cron-based jobs to timezone-aware scheduling.
+                Led legacy infrastructure retirement and security remediation as a Level 2 Security Champion, decommissioning deprecated systems and resolving vulnerability findings across the team.
               </li>
               <li>
-                Serve as a Security Champion by identifying vulnerabilities and partnering with engineers to prioritize and remediate application risks.
+                Proposed and built a time-zone-aware job scheduler that eliminated manual daylight saving updates, authored a shared Python library for common database and AWS functionality across the team's Glue and Lambda jobs, and led CI/CD migration from Bamboo to GitHub.
               </li>
             </ul>
           </Event>

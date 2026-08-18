@@ -3,8 +3,8 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=2 cm, % seperation between body and page edge from the top
-    bottom=2 cm, % seperation between body and page edge from the bottom
+    top=1.3 cm, % seperation between body and page edge from the top
+    bottom=1.3 cm, % seperation between body and page edge from the bottom
     left=2 cm, % seperation between body and page edge from the left
     right=2 cm, % seperation between body and page edge from the right
     footskip=1.0 cm, % seperation between body and footer
@@ -15,6 +15,7 @@
 \usepackage{array} % tabularx requires this
 \usepackage[dvipsnames]{xcolor} % for coloring text
 \definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
+\definecolor{linkGray}{RGB}{100, 100, 100} % subdued color for secondary links
 \usepackage{enumitem} % for customizing lists
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
@@ -59,25 +60,26 @@
 \setlength{\parindent}{0pt} % no indentation
 \setlength{\topskip}{0pt} % no top skip
 \setlength{\columnsep}{0.15cm} % set column seperation
+% \setlength{\parskip}{0.05cm}
 \pagenumbering{gobble} % no page numbering
 
-\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titleformat{\section}{\needspace{2\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
     % left space:
     -1pt
 }{
     % top space:
-    0.22 cm
+    0.15 cm
 }{
     % bottom space:
-    0.12 cm
+    0.08 cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.05 cm,
+        topsep=0.02 cm,
         parsep=0.05 cm,
         partopsep=0pt,
         itemsep=0pt,
@@ -90,7 +92,7 @@
 
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
-        topsep=0.05 cm,
+        topsep=0.02 cm,
         parsep=0.05 cm,
         partopsep=0pt,
         itemsep=0pt,
@@ -196,59 +198,62 @@
     \vspace{5 pt - 0.3 cm}
 
     \section{Experience}
+    \vspace{0.15cm}
     \begin{twocolentry}{
         May 2023 - Present
     }
-    \textbf{Software Engineer I → II (Application Engineer)}, Vanguard -- Malvern, PA \end{twocolentry}
-    \vspace{0.06 cm}
+    \textbf{Application Engineer}, Vanguard -- Malvern, PA \end{twocolentry}
+    \vspace{0.05 cm}
     \begin{onecolentry}
       \begin{highlights}
-        \item Mentored team members across full-stack development, led code reviews to uphold technical standards, and served as a Level 2 Security Champion to identify and mitigate application vulnerabilities.
-        \item Architected cloud-native serverless ETL pipelines (AWS Glue, ECS, Lambda) processing data across 50,000+ funds, establishing data integrity standards adopted team-wide.
-        \item Collaborated with Fixed Income stakeholders to design and build a React analytics platform via AWS API Gateway, modernizing manual workflows for global clients. 
-        \item Automated Tableau reporting for hedged share classes, eliminating manual dependencies and significantly accelerating reporting velocity for global Fixed Income clients.
-        \item Led Bamboo-to-GitHub CI/CD migrations and PostgreSQL/Glue upgrades; authored a shared Python library and time-zone-aware scheduler that eliminated daylight savings overhead across the team.
+        \item Built the foundational infrastructure for a full-stack internal analytics platform (React/AG-Grid UI, Okta-secured API Gateway, PostgreSQL/Athena backend) and new Tableau dashboards, replacing manual Excel-based reporting for analysts across Equity and Fixed Income.
+        \item Lead the team's reporting automation initiative, ramping up independently on unfamiliar systems to own prioritization, roadmap, and code reviews for a Playwright/UIPath suite recovering an estimated 25-30+ hours of analyst time daily.
+        \item Architected serverless ETL pipelines in AWS Glue, Lambda, and S3 processing data across 50,000+ funds for downstream Risk Analytics and Performance Reporting, serving as the team's go-to resource for data troubleshooting and query support.
+        \item Led legacy infrastructure retirement and security remediation as a Level 2 Security Champion, decommissioning deprecated systems and resolving vulnerability findings across the team.
+        \item Proposed and built a time-zone-aware job scheduler that eliminated manual daylight saving updates, authored a shared Python library for common database and AWS functionality across the team's Glue and Lambda jobs, and led CI/CD migration from Bamboo to GitHub.
       \end{highlights}
     \end{onecolentry}
-    \vspace{0.12 cm}
+    \vspace{0.05 cm}
     \begin{twocolentry}{
         Feb 2022 - Nov 2022
     }
     \textbf{Contracted Developer}, Orita -- Remote \end{twocolentry}
-    \vspace{0.06 cm}
+    \vspace{0.05 cm}
     \begin{onecolentry}
       \begin{highlights}
-        \item Built a client-facing Svelte interface enabling businesses to upload proprietary data and connect with third-party e-commerce platforms, delivering actionable analytics to external clients.
-        \item Developed a Django/Python pipeline to automate generation of business analytics reports from JSON data, using CSS templates for consistent, reusable report design.
+        \item Developed a Svelte application with user authentication and third-party integrations (Klaviyo, Shopify) enabling businesses to connect e-commerce data for analysis.
+        \item Automated business analytics report generation from JSON data using Django templates and CSS for consistent, reusable design.
       \end{highlights}
     \end{onecolentry}
-    \vspace{0.12 cm}
+    \vspace{0.05 cm}
     \begin{twocolentry}{
         Jan 2022 - Sep 2022
     }
     \textbf{Developer Co-op}, Baltimore Orioles -- Baltimore, MD \end{twocolentry}
-    \vspace{0.06 cm}
+    \vspace{0.05 cm}
     \begin{onecolentry}
       \begin{highlights}
-        \item Engineered a Django/React dashboard to aggregate and filter data for 32,000+ draft-eligible players, directly improving scouting efficiency and amateur draft decision-making.
+        \item Designed a full-stack dashboard using Django and React to aggregate and filter data for 32,000+ draft-eligible players, directly improving scouting efficiency and amateur draft decision-making.
         \item Introduced advanced pitch-by-pitch editing features (add, delete, reorder, and mass-update) used by coaches and analysts to maintain accurate game records.
         \item Optimized AWS Lambda functions for data retrieval, calculation, and population, ensuring accurate and reliable storage of game and player records.
       \end{highlights}
     \end{onecolentry}
-    
+
     \section{Projects}
+    \vspace{0.06cm}
     \begin{twocolentry}{
-            Aug 2025 - Present
-        }
-        \textbf{Custom Discord Bot}\end{twocolentry}
-        \vspace{0.06 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Built and maintain a production Python bot hosted on AWS Lightsail, serving a 400+ member community with slash-commands for role management, content moderation, and event triggers.
-            \end{highlights}
-        \end{onecolentry}
+        Aug 2025 - Present
+    }
+    \textbf{Custom Discord Bot} \hrefWithoutArrow{https://github.com/zachnorman02/BradBot}{\textcolor{linkGray}{\textit{github.com/zachnorman02/BradBot}}} \end{twocolentry}
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+      \begin{highlights}
+        \item Built and maintain a production Python bot hosted on AWS Lightsail, serving a 400+ member community with slash-commands for role management, content moderation, and event triggers.
+      \end{highlights}
+    \end{onecolentry}
 
     \section{Education}
+    \vspace{0.05 cm}
     \begin{twocolentry}{
         Aug 2023 - Aug 2025
     }
@@ -271,16 +276,20 @@
     \textit{Boston, MA}
     \end{twocolentry}
 
-    \section{Technical Skills \& Certifications}
+    \enlargethispage{1.5\baselineskip}\section{Technical Skills \& Certifications}
+    \vspace{0.15cm}
     \begin{onecolentry}
       \textbf{Languages:} Python, R, JavaScript/TypeScript, Java, SQL, HTML, CSS
     \end{onecolentry}
+    \vspace{0.03cm}
     \begin{onecolentry}
-      \textbf{Frameworks/Libraries:} React, Svelte, Django, Flask, Plotly/Dash, D3, WebGL
+      \textbf{Frameworks/Libraries:} pandas, tidyverse, React, Svelte, Django, Flask, Plotly/Dash, D3
     \end{onecolentry}
+    \vspace{0.03cm}
     \begin{onecolentry}
-      \textbf{Tools:} Git, AWS, Docker, dbt, Tableau, GitHub Copilot
+      \textbf{Tools:} Git, AWS, Docker, dbt, Tableau
     \end{onecolentry}
+    \vspace{0.03cm}
     \begin{onecolentry}
       \textbf{Certifications:} dbt Fundamentals, Google UX Design Specialization
     \end{onecolentry}
